@@ -7,7 +7,6 @@ body
 {
 margin:0px 2px 0px 2px;
 font-family: "Raleway-Regular";
-/* width:93%; */
 }
 
 @font-face
@@ -40,19 +39,12 @@ h3{
 .top{
     display:flex;
     color:#0065FC;
-    /* flex-wrap: wrap; */
 }
-
-/* .icone_reservia{
-    width: 375px;
-    background-color: red;
-} */
 
 .menu{
     display: flex;
     justify-content:flex-end;
     width:100%;
-    /* background-color:green; */
 }
 
 .menu a{
@@ -62,15 +54,12 @@ h3{
 
 nav{
     display: flex;
-    /* background-color: blue; */
 }
 
 .menu_hebergement{
     width: 150px;
     padding-top: 15px;
     text-align: center;
-    
-    /* background-color: blue; */
 }
 
 .menu_hebergement:hover{
@@ -80,7 +69,6 @@ nav{
     width: 150px;
     padding-top: 15px;
     text-align: center;
-    /* background-color: blue; */
 }
 
 .menu_activité:hover{
@@ -88,16 +76,13 @@ nav{
 }
 
 .log_in{
-    /* background-color: red; */
     margin-left:30px;
     padding-top: 15px;
     font-family: "Raleway-Bold";
-
 }
 
 .search_bar{
     display: flex;
-    /* background-color: hotpink; */
 }
 
 .button_icone{
@@ -114,7 +99,6 @@ nav{
     width:10px;
     height: 10px;
     transform: translateY(-40%);
-    /* background-color:red; */
 }
 
 
@@ -145,18 +129,12 @@ nav{
     margin-right:20px;
 }
 .tous_les_filtres{
-    /* background-color: salmon; */
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width:80%;
 }
-
-/* .rond_bleu:hover , .filtre:hover {
-    background-color: rgba(218, 37, 37, 0.47);
-    border-color:  rgba(218, 37, 37, 0.47); 
-} */
 
 .rond_bleu:hover + .filtre {
     background-color: rgba(218, 37, 37, 0.47);
@@ -189,11 +167,8 @@ nav{
     bottom:-2px;
 }
 
-
-
 .contener_icone_filtre{
     color: #0065FC;
-
 }
 
 
@@ -205,21 +180,10 @@ nav{
     padding-left:20px;
 }
 
-/* .texte_du_filtre:hover{
-    padding-right:5px;
-    vertical-align: middle;
-    line-height: 28px;
-    font-family: "Raleway-Bold";
-    padding-left:20px;
-    color: #ff0000;
-} */
-
 .info{
     display:flex;
-    /* background-color: sandybrown; */
     align-items: center;
     height: 10px;
-    
 }
 
 
@@ -231,7 +195,6 @@ nav{
     color: #0065FC;
     font-size:0.6em;
     text-align: center;
-    /* transform: translateY(-30%);*/
 }
 
 .text_info{
@@ -240,11 +203,9 @@ nav{
 
 #hebergements_et_aside{
     display: flex;
-    /* flex-wrap:wrap-reverse; */
     width:100%;
     height: auto;
     margin-top:10px;
-    background-color: salmon;
 }
 
 .hebergements{
@@ -264,7 +225,6 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-right:20px;
-    /* margin-left: 20px; */
 }
 
 
@@ -297,15 +257,12 @@ color:#4086f0;
 }
 
 .prix_hotel{
-    /* line-height: 20px; */
 }
 
 .etoile{
     height:20px;
     width: 20px;
-    /* transform: translateX(-100%); */
     transform: translateY(-3%);
-    background-color:red;
     color:#0065FC;
 }
 
@@ -314,7 +271,6 @@ color:#4086f0;
     align-items: flex-end;
     justify-content: space-between;
     width: 130px;
-    background-color: rgb(49, 226, 43);
 }
 
 
@@ -335,20 +291,15 @@ aside{
     align-items: flex-end;
     margin-top: 10px;
     line-height: 0px;
-    background-color: rgb(49, 226, 43);
-    /* margin-bottom: 20px ; */
 }
 
 .text_populaire{
     height: 25px;
-    background-color:red;
     margin-right:120px;
     text-align: right;
 }
 
 .icone_populaire{
-    /* transform: translateY(-25%); */
-    background-color:blue;
     font-size: 1.5em;
 }
 
@@ -374,7 +325,6 @@ aside{
     min-width: 350px;
     min-height: 180px;
     cursor: pointer;
-    /* background-color:red; */
 }
 
 .description_encare_populaire{
@@ -384,7 +334,6 @@ aside{
     width: 180px;
     height: 160px;
     padding-left: 10px;
-    /* background-color:red; */
 }
 
 .image_populaire{
@@ -398,14 +347,12 @@ aside{
 }
 
 .titre_encare_populaire{
-    background-color: sandybrown;
 }
 
 .prix_encare_populaire{
     display: flex;
     justify-content: flex-start;
     width:100%;
-    background-color:blueviolet;
 
 }
 
@@ -415,20 +362,12 @@ aside{
     align-items: flex-end;
     height: 100%;
     width:100%;
-    /* transform: translateY(50%); */
-    background-color:green;
 }
-
-/* .texte_activité_marseille{
-    margin-left:30px;
-} */
 
 .toutes_les_activités{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color:blueviolet;
-    /* margin:20px; */
 }
 
 .groupe_1_de_3_activités{
@@ -436,7 +375,6 @@ aside{
     justify-content: space-between;
     width: 50%;
     padding-right:50px;
-    background-color: greenyellow;
 }
 
 .groupe_2_de_3_activités{
@@ -445,7 +383,6 @@ aside{
     align-items: stretch;
     padding-left:50px;
     width: 50%;
-    background-color: rgb(255, 47, 245);
 }
 
 .les_2_1ère_petites_photo_activités{
@@ -459,7 +396,6 @@ aside{
     width:300px;
     padding-right: 20px;
     box-shadow: -9px 18px 15px 1px rgba(0,0,0,0.47);
-    background-color: red;
     cursor: pointer;
 }
 
@@ -481,8 +417,6 @@ aside{
     padding:    0px 0px 10px 10px;
 }
 
-
-
 footer
 {
     margin-top: 30px;
@@ -499,7 +433,6 @@ footer
     flex-direction: column;
     width: 300px;
     padding:20px;
-    /* min-width: 375px; */
 }
 
 
@@ -511,7 +444,6 @@ footer
         width:100%;
         height: auto;
         margin-top:10px;
-        background-color: salmon;
     }
 
     .contener_encare_polulaire{
@@ -539,8 +471,6 @@ footer
         align-items: flex-end;
         margin-top: 10px;
         line-height: 0px;
-        background-color: salmon;
-        /* margin-bottom: 20px ; */
     }
 
     .encares_par_2{
@@ -548,38 +478,25 @@ footer
         justify-content: space-evenly;
         flex-direction: row;
         width: 100%;
-        background-color:yellow;
     }
     .contener_à_activité{
         border-radius: 20px;
         width:300px;
         box-shadow: -9px 18px 15px 1px rgba(0,0,0,0.47);
         margin-bottom: 20px;
-        background-color: red;
     }
-
-    /* .groupe_1_de_3_activités{
-        display:flex;
-        justify-content: space-around;
-        width: 50%;
-        padding-right:50px;
-        background-color: greenyellow;
-    } */
 
     .groupe_2_de_3_activités{
         display:flex;
         justify-content: space-between;
-        /* align-items: stretch; */
         padding-left:0px;
         width: 50%;
-        background-color: rgb(255, 47, 245);
     }
 
     .les_2_1ère_petites_photo_activités{
         display:flex;
         flex-direction: column;
         justify-content:space-between ;
-        /* margin-left:40px; */
         padding: 0px 20px 0px 20px;
 
     }
@@ -600,16 +517,12 @@ footer
         justify-content: space-evenly;
         flex-direction: row;
         width: 100%;
-        background-color:yellow;
     }
 
     .toutes_les_activités{
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
-        /* justify-content: space-between; */
-        background-color:blueviolet;
-        /* margin:20px; */
     }
 
     .groupe_1_de_3_activités{
@@ -619,7 +532,6 @@ footer
         margin-top: 40px;
         padding:0px;
         width: 100%;
-        background-color: rgb(47, 213, 255);
     }
 
     .groupe_2_de_3_activités{
@@ -628,18 +540,7 @@ footer
         margin-top: 40px;
         padding:0px;
         width: 100%;
-        background-color: rgb(255, 217, 47);
     }
-
-
-
-    /* .les_2_dernière_petites_photo_activités{
-        display: flex;
-        justify-content: space-between;
-        margin-top:20px;
-        width: 100%;
-        background-color:blue;
-    } */
 
 }
 
@@ -648,23 +549,19 @@ footer
         display:block;
         position: relative;
         width: 100%;
-        background-color:greenyellow;
     }
     .menu{
         display: flex;
         justify-content:flex-end;
         width:100%;
-        /* background-color:rgba(68, 0, 255,0.5); */
     }
 
     .log_in{
-        /* background-color: red; */
         position: absolute;
         padding-top: 15px;
         padding-right: 10px;
         right: 0px;
         bottom: 45px;
-        /* top:15px; */
     }
 
     nav{
@@ -674,7 +571,6 @@ footer
     }
 
     .tous_les_filtres{
-        /* background-color: salmon; */
         display:flex;
         flex-wrap: wrap;
         justify-content: flex-start;
@@ -688,9 +584,6 @@ footer
         width:100%;
         height: auto;
         margin-top:10px;
-        background-color: salmon;
-
-
     }
 
     aside{
@@ -710,17 +603,11 @@ footer
         width: 100%;
     }
 
-    /* .photo_chambre img{
-        width: 100px;
-        height: 100px;
-    } */
-
     .encares_par_2{
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
         width: 100%;
-        /* background-color:red; */
     }
 
     .contener_encare_polulaire{
@@ -730,24 +617,6 @@ footer
         align-items: center;
     }
 
-    /* .alignement_bas_etoiles_populaire{
-        display:flex;
-        align-items: flex-end;
-        height: 35px; 
-        background-color:green;
-    } */
-
-
-/* @media screen and (max-width: 960px) {
-     .les_2_1ère_petites_photo_activités{
-        display:flex;
-        flex-direction: row;
-        justify-content:space-between ;
-        margin-bottom: 20px;
-        background-color: greenyellow;
-    } 
-
-} */
 
  @media screen and (max-width: 810px) {
 
@@ -755,7 +624,6 @@ footer
         display: flex;
         justify-content: center;
         width:100%;
-        background-color: hotpink;
     }
 
     #site-search{
@@ -797,8 +665,6 @@ footer
         justify-content: center;
         align-items: center;
         margin:0px;
-        background-color:blue;
-
     }
 
     aside{
@@ -829,7 +695,6 @@ footer
         display:flex;
         align-items: flex-end;
         height: 55px;
-        background-color:green;
     }
     .contener_à_activité{
         margin-top:20px;
@@ -842,7 +707,6 @@ footer
         align-items: center;
         margin-top: 40px;
         width: 100%;
-        background-color: rgb(47, 213, 255);
     }
 
     .groupe_2_de_3_activités{
@@ -852,7 +716,6 @@ footer
         align-items: center;
         margin-top: 40px;
         width: 100%;
-        background-color: rgb(255, 217, 47);
     }
 
 }
