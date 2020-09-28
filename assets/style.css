@@ -147,6 +147,7 @@ nav{
     border-left:none;
     margin:10px;
     cursor: pointer;
+    
 }
 
 .rond_bleu{
@@ -160,6 +161,7 @@ nav{
     background-color: #DEEBFF;
     left: -13px;
     bottom:-2px;
+    z-index: 2;
 }
 
 .contener_icone_filtre{
@@ -173,9 +175,11 @@ nav{
     line-height: 28px;
     font-family: "Raleway-Bold";
     padding-left:20px;
+    z-index: 1;
+    /* background-color: rgba(206, 29, 29, 0.47); */
 }
 
-.filtre:hover {
+.filtre:hover{
     transform: scale(1.2);
     transition: all 0.5s ease;
     box-shadow: rgba(0,0,0,0.5) 0px 0px 15px;
@@ -243,9 +247,9 @@ nav{
     cursor: pointer;
 }
 
-.encare_hotels:hover{
+/* .encare_hotels:hover{
 color:#4086f0;
-}
+} */
 
 .photo_chambre img{
     border-radius: 25px 25px 0px 0px;
@@ -266,6 +270,13 @@ color:#4086f0;
     width: 20px;
     transform: translateY(-3%);
     color:#0065FC;
+}
+
+.etoile_grise{
+    height:20px;
+    width: 20px;
+    transform: translateY(-3%);
+    color:#aeb1b6;
 }
 
 .contener_a_etoiles{
